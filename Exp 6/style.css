@@ -4,7 +4,7 @@
 
     padding: 0;
 
-    background-color: #a2d2ff;
+    background-color: #72ada8;
 
 }
 
@@ -30,9 +30,9 @@ nav ul li {
 
     text-align: center;
 
-    background-color: black;
+    background-color: #181414;
 
-    border: solid white;
+    border: solid rgb(248, 244, 244);
 
 }
 
@@ -98,9 +98,9 @@ button {
 
     align-self: center;
 
-    color: #a2d2ff;
+    color: #131412;
 
-    background-color: blue;
+    background-color: rgb(149, 107, 168);
 
     border-radius: 30px;
 
