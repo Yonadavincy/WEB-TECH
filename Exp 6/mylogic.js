@@ -46,8 +46,6 @@ function color_ch() {
 
     var color = "rgb(" + red + "," + green + "," + blue + ")";
 
- 
-
     document.getElementsByClassName("dynamic_bg")[0].style = "background-color:" + color;
 
     setTimeout(color_ch, 2000);
@@ -56,25 +54,19 @@ function color_ch() {
 
 color_ch();
 
- 
-
 function incSize() {
 
     document.getElementById('para1').style.fontSize = "28px";
 
 }
 
- 
-
-function decSize() {
+ function decSize() {
 
     document.getElementById('para1').style.fontSize = "15px";
 
 }
 
- 
-
-// method1
+ // method1
 
 function init() {
 
@@ -84,15 +76,11 @@ function init() {
 
 }
 
- 
-
-function moveRight() {
+ function moveRight() {
 
     imgobj.style.left = parseInt(imgobj.style.left) + 1 + 'px';
 
     animate = setTimeout('moveRight()', 10);
-
- 
 
     if (parseInt(imgobj.style.left) >= 1300) {
 
@@ -102,9 +90,7 @@ function moveRight() {
 
 }
 
- 
-
-function stop() {
+ function stop() {
 
     clearTimeout(animate);
 
@@ -143,13 +129,11 @@ function student() {
 
     var stu_obj = [
 
-        { name: 'John', r_num: '123', dob: '20-apr-1995' },
+        { name: 'Yona', r_num: '123', dob: '07-nov-2002' },
 
-        { name: 'Joseph', r_num: '456', dob: '05-jan-1998' }
+        { name: 'Teena', r_num: '456', dob: '08-nov-2001' }
 
     ];
-
- 
 
     for (var i = 0; i < stu_obj.length; i++) {
 
